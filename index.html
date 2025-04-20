@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Mi-Portafolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li><!--Botón para cambiar tema oscuro/claro-->
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Sección de inicio -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hola, yo soy <span class="highlight">Sharon Vega</span></h1>
+                <p>Desarrollador Web Full Stack</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="#portfolio" class="btn">Ver mis proyectos</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/img/yo.png" alt="Foto de perfil">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p> Soy estudiante de cuarto año de Ingeniería en Sistemas en la Universidad Nacional de Costa Rica,
+                        apasionada por el aprendizaje continuo y
+                        con un interés especial en redes. A lo largo de mi formación, he adquirido experiencia práctica
+                        en diversas tecnologías y lenguajes de programación, incluyendo Node.js, React, JavaScript,
+                        entre otros. Aunque no me considero especialista en un lenguaje específico, he demostrado
+                        habilidad para adaptarme y utilizar diferentes herramientas según las necesidades del proyecto.
+                    </p>
+                    <p> Mi portafolio refleja mi capacidad para abordar problemas complejos, colaborar en equipos
+                        multidisciplinarios y desarrollar soluciones innovadoras. </p>
+                    <p> Estoy comprometida con la mejora continua y siempre busco oportunidades para expandir mis
+                        conocimientos y habilidades. Mi objetivo es contribuir de manera significativa en el campo de la
+                        ingeniería en sistemas, aplicando lo aprendido y adaptándome a los desafíos tecnológicos del
+                        futuro.</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <h3>Nombre:</h3>
+                        <p>Sharon Vega López</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Email:</h3>
+                        <p>svega1399@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Edad:</h3>
+                        <p>22 años</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>De:</h3>
+                        <p>Santa Cruz, Guanacaste</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección educación -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Educación y Experiencia</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - Presente</div>
+                    <div class="timeline-content">
+                        <h3>Ingeniería en Sistemas de Información</h3>
+                        <p>Universidad Nacional de Costa Rica</p>
+                        <p>Promedio: 8.43</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Técnico Medio en Informática en redes</h3>
+                        <p>Colegio Técnico Profesional de Santa Cruz.</p>
+                        <p>Realización de pasantía en la Municipalidad de Santa Cruz</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>CCNA 1 Introducción a las redes.</h3>
+                        <p> Cisco Networking Academy</p>
+                        <p>Certificación en CCNA 1 Routing and Switching</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección habilidades -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Tecnologías Frontend</h3>
+                    <div class="skill-item">
+                        <p>HTML5 & CSS3</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>JavaScript</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>React</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tecnologías Backend</h3>
+                    <div class="skill-item">
+                        <p>Node.js</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>JavaScript</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                     
+                </div>
+                <div class="skill-category">
+                    <h3>Idiomas</h3>
+                    <div class="skill-item">
+                        <p>Español (Nativo)</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 100%;"></div>
+                        </div>
+                        <p>Ingles</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 55%;"></div>
+                        </div>
+                         
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Sección portafolio -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portafolio de Proyectos</h2>
+            <div class="portfolio-grid">
+                <!-- Proyecto 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/img/tfg.png" alt="Proyecto 1">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Sistema de Gestión TFG-UNA</h3>
+                        <p>Plataforma web para administración de proyectos Finales de Graduación.</p>
+                        <div class="portfolio-tech">
+                            <span>React</span>
+                            <span> EntityFramework</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Ver proyecto</a>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/img/redes.png" alt="Proyecto 2">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Propuesta de Estructura de Red</h3>
+                        <p>Propuesta para el restaurante y super La Paloma.</p>
+                        <div class="portfolio-tech">
+                            <span>CCNA 1</span>
+                            <span>Packet Tracer</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Ver proyecto</a>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/img/arduino.png" alt="Proyecto 3">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link"><i class="fas fa-search-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Puente Levadizo</h3>
+                        <p>Puente levadizo basado en puente Blagoveshenski de San Petersburgo</p>
+                        <div class="portfolio-tech">
+                            <span>C++</span>
+                            <span>Arduino IDE</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sharon Vega .Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
